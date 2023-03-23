@@ -332,7 +332,7 @@ export default function Home() {
               </div>
               <div className={styles.description}>
                 {/* Format Ether helps us in converting a BigNumber to string */}
-                Overall {utils.formatEther(tokensMinted)}/10000 have been minted!!!
+                Overall {utils.formatEther(tokensMinted)}/100000000 have been minted!!!
               </div>
               {renderButton()}
             </div>
